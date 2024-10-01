@@ -1,0 +1,93 @@
+/* Blog.css */
+
+body {
+   font-family: 'Arial', sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background-color: #F1E6D2;
+   color: #5E657B;
+}
+
+header {
+   background-color: #210706;
+   color: #ffffff;
+   padding: 30px 0;
+   text-align: center;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+   margin: 0;
+   font-size: 2.5em;
+   letter-spacing: 2px;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 10px 0;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 20px;
+}
+
+nav ul li a {
+   color: #F1E6D2;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   color: #891D1A;
+}
+
+main {
+   padding: 30px;
+   max-width: 900px;
+   margin: auto;
+}
+
+section {
+   margin-bottom: 40px;
+   background: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s;
+}
+
+section:hover {
+   transform: translateY(-5px);
+}
+
+section h2 {
+   color: #891D1A;
+   border-bottom: 2px solid #5E657B;
+   padding-bottom: 10px;
+}
+
+section img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+footer {
+   text-align: center;
+   padding: 20px 0;
+   background: #891D1A;
+   color: #F1E6D2;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   font-size: 0.9em;
+}
+
+footer p {
+   margin: 0;
+}
